@@ -1,4 +1,8 @@
 Revision history for Perl extension Alien::scriptaculous.
 
+1.001   Wed Nov  8 11:44 PST 2006
+    - updated dependencies in Build.PL
+    - updated to script.aculo.us 1.6.5
+
 1.000   Mon Oct  2 13:31 PDT 2006
     - First public version.  Installs script.aculo.us 1.6.4

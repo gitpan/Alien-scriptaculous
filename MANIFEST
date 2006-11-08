@@ -4,7 +4,7 @@ MANIFEST
 MANIFEST.SKIP
 META.yml
 README.txt
-scriptaculous-js-1.6.4.tar.gz
+scriptaculous-js-1.6.5.tar.gz
 bin/scriptaculous-install
 inc/MY/Build.pm
 lib/Alien/scriptaculous.pm
