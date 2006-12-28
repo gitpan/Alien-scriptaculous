@@ -1,5 +1,11 @@
 Revision history for Perl extension Alien::scriptaculous.
 
+1.002   Thu Dec 28 14:21 PST 2006
+    - Patched the version of prototype that is bundled with script.actulo.us
+      1.6.5, fixing a problem with "evalResponse()" being called after
+      "onComplete".  This was noted as Bug #6727 back on Nov 29th, but hasn't
+      been fixed yet; (http://dev.rubyonrails.org/ticket/6727).
+
 1.001   Wed Nov  8 11:44 PST 2006
     - updated dependencies in Build.PL
     - updated to script.aculo.us 1.6.5

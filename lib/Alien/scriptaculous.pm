@@ -8,7 +8,7 @@ use File::Copy qw(copy);
 use File::Path qw(mkpath);
 
 # Version number
-our $VERSION = '1.001';
+our $VERSION = '1.002';
 our $SCRIPTACULOUS_VERSION = '1.6.5';
 
 # Returns the script.aculo.us version number.
