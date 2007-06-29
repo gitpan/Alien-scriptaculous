@@ -1,5 +1,8 @@
 Revision history for Perl extension Alien::scriptaculous.
 
+1.65    Fri Jun 29 10:58 PDT 2007
+    - Switched versioning scheme to match that of script.aculo.us
+
 1.002   Thu Dec 28 14:21 PST 2006
     - Patched the version of prototype that is bundled with script.actulo.us
       1.6.5, fixing a problem with "evalResponse()" being called after

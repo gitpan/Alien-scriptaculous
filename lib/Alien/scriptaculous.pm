@@ -8,12 +8,11 @@ use File::Copy qw(copy);
 use File::Path qw(mkpath);
 
 # Version number
-our $VERSION = '1.002';
-our $SCRIPTACULOUS_VERSION = '1.6.5';
+our $VERSION = '1.65';
 
 # Returns the script.aculo.us version number.
 sub version {
-    return $SCRIPTACULOUS_VERSION;
+    return $VERSION;
 }
 
 # Returns the path to the available copy of script.aculo.us.
