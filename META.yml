@@ -1,6 +1,6 @@
 ---
 name: Alien-scriptaculous
-version: 1.6.5
+version: 1.7.0
 author:
   - Graham TerMarsch (cpan@howlingfrog.com)
 abstract: installing and finding script.aculo.us
@@ -13,7 +13,7 @@ build_requires:
 provides:
   Alien::scriptaculous:
     file: lib/Alien/scriptaculous.pm
-    version: 1.6.5
+    version: 1.7.0
 generated_by: Module::Build version 0.2805
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
