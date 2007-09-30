@@ -3,8 +3,6 @@ package MY::Build;
 use strict;
 use warnings;
 use base qw(Module::Build);
-use File::Path qw(mkpath rmtree);
-use File::Copy qw(copy);
 use Archive::Tar;
 use Alien::scriptaculous;
 
@@ -24,7 +22,7 @@ sub scriptaculous_dir {
 }
 
 sub scriptaculous_target_dir {
-    return 'blib/lib/Alien/scriptaculous';
+    return 'blib/lib/Alien/scriptaculous/';
 }
 
 sub scriptaculous_url {
