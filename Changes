@@ -1,5 +1,14 @@
 Revision history for Perl extension Alien::scriptaculous.
 
+1.7.1.2_3   Tue Oct  2 11:46 PDT 2007
+    - added POD coverage tests
+    - now depends on Alien::Prototype, instead of using the version that came
+      bundled with script.aculo.us.
+    - fix dependency on Archive::Tar; its a -build- dependency, not a
+      -configuration- dependency
+    - added "passthrough" Makefile.PL; we -NEED- to have Module::Build
+      installed, auto-generated compatibility Makefile.PLs are insufficient
+
 1.7.1.1_3   Sun Sep 30 13:30 PDT 2007
     - added POD docs to Alien::scriptaculous
     - added "--quiet" command line argument to "scriptaculous-install"

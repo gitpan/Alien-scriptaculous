@@ -3,8 +3,6 @@ package MY::Build;
 use strict;
 use warnings;
 use base qw(Module::Build);
-use Archive::Tar;
-use Alien::scriptaculous;
 
 sub ACTION_code {
     my $self = shift;
@@ -14,11 +12,11 @@ sub ACTION_code {
 }
 
 sub scriptaculous_archive {
-    return join( '', 'scriptaculous-js-', Alien::scriptaculous->version(), '.tar.gz' );
+    return 'scriptaculous-js-1.7.1_beta3.tar.gz';
 }
 
 sub scriptaculous_dir {
-    return join( '', 'scriptaculous-js-', Alien::scriptaculous->version() );
+    return 'scriptaculous-js-1.7.1_beta3';
 }
 
 sub scriptaculous_target_dir {
@@ -44,6 +42,7 @@ sub install_scriptaculous {
     my $self = shift;
     return if (-d $self->scriptaculous_target_dir());
 
+    require Archive::Tar;
     print "Installing script.aculo.us...\n";
     my $tar   = Archive::Tar->new( $self->scriptaculous_archive(), 1 );
     my $src   = $self->scriptaculous_dir();
