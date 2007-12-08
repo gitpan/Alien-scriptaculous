@@ -12,11 +12,11 @@ sub ACTION_code {
 }
 
 sub scriptaculous_archive {
-    return 'scriptaculous-js-1.7.1_beta3.tar.gz';
+    return 'scriptaculous-js-1.8.0.tar.gz';
 }
 
 sub scriptaculous_dir {
-    return 'scriptaculous-js-1.7.1_beta3';
+    return 'scriptaculous-js-1.8.0';
 }
 
 sub scriptaculous_target_dir {

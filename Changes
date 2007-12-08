@@ -1,5 +1,8 @@
 Revision history for Perl extension Alien::scriptaculous.
 
+1.8.0.1     Fri Dec  7 21:46 PST 2007
+    - update to script.aculo.us 1.8.0 final
+
 1.7.1.2_3   Tue Oct  2 11:46 PDT 2007
     - added POD coverage tests
     - now depends on Alien::Prototype, instead of using the version that came
